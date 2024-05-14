@@ -1,0 +1,35 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the app takes up the full viewport height */
+  }
+  
+  /* Navbar.css */
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 10px 20px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end; /* Align nav items to the right */
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+  
+  /* Home.css */
+  
+ 

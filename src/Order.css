@@ -1,0 +1,131 @@
+/* OrderPage.css */
+
+/* Container for order details */
+.order-details {
+
+    width:50%;
+    height: 70%;
+    padding-top: 50px;
+    margin-left: 6%;
+
+  }
+  
+  /* Order details */
+  .order-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 7%;
+  }
+  
+  .order-details p {
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 40px;
+    margin-top: -20px;
+    line-height: 40px;
+  }
+  
+  .order-details img {
+    width: 35%;
+    height: 350px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
+  
+  /* Form container */
+  .contact-form {
+    max-width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 7%;
+    margin-left: 0%;
+    border: 2px solid white;
+    margin-bottom: 40px;
+  }
+
+.form-field {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.2s ease-out, font-size 0.2s ease-out, color 0.2s ease-out;
+    transform-origin: left top;
+    pointer-events: none;
+  }
+  
+  input,
+  textarea {
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background-color: transparent;
+    transition: border-color 0.2s ease-out;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-bottom-color: gold;
+  }
+  
+  label.active {
+    transform: translateY(-24px) scale(0.8);
+    font-size: 0.8em;
+    color: gold;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  label.active + input, /* Target input fields adjacent to active labels */
+    label.active + textarea { /* Target textarea fields adjacent to active labels */
+  color: #ffffff; /* Change text color when label is active */
+}
+
+button[type='submit'] {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    margin-left: 28%;
+    margin-top: 20px;
+  }
+  
+  button[type='submit']:hover {
+    background-color: goldenrod;
+  }
+
+  .Form{
+    margin-left: 50%;
+    margin-top: -35%;
+  }
+
+  .notification{
+    position: absolute;
+    background-color: rgb(41, 40, 40);
+    padding-left: 20px;
+    max-width: fit-content;
+    border-radius: 4px;
+    padding-right: 20px;
+    margin-left: 4%;
+    padding-top: 8px;
+    padding-bottom: 10px ;
+    transition: opacity 1s ease, height 1s ease, margin 1s ease;
+  }
+
+  .notification.hidden {
+    opacity: 0;
+    height: 0;
+    margin: 0;
+  }

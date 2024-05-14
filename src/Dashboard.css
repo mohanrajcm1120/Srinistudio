@@ -1,0 +1,37 @@
+/* Dashboard Styles */
+.dashboard-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dashboard-container h1 {
+  margin-top: 10%;
+  padding-bottom: 40px;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse border model to remove space between cells */
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  padding: 20px; /* Increase padding for better spacing */
+  border: none; /* Remove borders from cells */
+  text-align: center;
+}
+
+.dashboard-table th {
+  border: 2px solid white;
+  background-color: black;
+  margin-bottom: 40px;/* Light gray background for table headers */
+  font-weight: bold;
+
+}
+
+.dashboard-table tbody tr:first-child {
+
+  padding-top: 40px; /* Separate headings from body with a border */
+}
+

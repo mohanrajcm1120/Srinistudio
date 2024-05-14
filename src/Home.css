@@ -1,0 +1,65 @@
+.Home {
+    flex: 1; /* Fill remaining vertical space */
+    padding: 20px;
+    max-width: 100%
+  }
+  
+  .slideshow-container {
+    width: 80%;
+    height:40px;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+  
+  .slideshow-container img {
+    width: calc(100% - 30px); /* Calculate width with padding subtracted */
+    height: 400px;
+  }
+  
+  .slick-slide {
+    padding: 0 10px; /* Add space on the left and right of each slide */
+  }
+
+  .slick-prev,
+.slick-next {
+  background-color: transparent; /* Arrow background color */
+  margin-top: -18%; /* Padding around arrows */
+  border-radius: 50%; /* Round the arrow buttons */
+  z-index: 1; /* Ensure arrows appear above slides */
+  padding: 10px;
+  color: gold;
+}
+
+.slick-prev {
+  left: -70px; /* Position previous arrow to the left */
+  
+}
+
+.slick-next {
+  right: -50px; /* Position next arrow to the right */
+}
+
+
+.slick-slide img {
+    box-sizing: border-box; /* Include border in total width and height */
+  }
+
+  
+.slick-slide img:hover {
+    border: 2px solid gold; /* Add border on hover */
+  }
+
+.home-content{
+    width:80%;
+    margin-left: 10%;
+}
+.home-content p{
+    text-align: justify;
+    margin-top: 35%;
+}
+
+.name{
+    color: gold;
+    font-weight:500;
+}

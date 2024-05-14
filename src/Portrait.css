@@ -1,0 +1,55 @@
+
+.portrait-description {
+    margin-bottom: 20px;
+    text-align: justify;
+    padding-top: 7%;
+    width: 77%;
+    padding-left: 11%;
+    
+  }
+  
+  .rate{
+    color: gold;
+  }
+  .portrait-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Horizontally center the image containers */
+  }
+  
+  .image-container {
+    width: 20%; /* Each image container takes up half of the width */
+    padding: 15px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    padding-right:50px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    display: block; /* Ensure images don't have extra space below them */
+    margin: 0 auto;
+    border-top: 10px solid rgb(255, 255, 255); /* Top border style (red color, 10px thickness) */
+    border-right: 10px solid rgb(255, 255, 255); /* Right border style (blue color, dotted, 5px thickness) */
+    border-bottom: 60px solid rgb(255, 255, 255); /* Bottom border style (green color, double line, 15px thickness) */
+    border-left: 10px solid rgb(255, 255, 255);  /* Center the images horizontally within their container */
+  }
+  
+  .fullscreen-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .fullscreen-modal img {
+    max-width: 90%;
+    max-height: 90%;
+  }

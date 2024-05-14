@@ -1,0 +1,47 @@
+  
+  .videography-description {
+    margin-bottom: 20px;
+    text-align: justify;
+    padding-top: 7%;
+    width: 77%;
+    padding-left: 11%;
+  }
+  
+  .videography-examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .video-container {
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .fullscreen-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .fullscreen-modal video {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  

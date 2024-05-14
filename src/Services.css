@@ -1,0 +1,115 @@
+.Services{
+  max-width:100%;
+}
+
+.Services h4{
+    color: gold;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 3 columns for 6 items (2 items per column) */
+    gap: 20px; /* Adjust the gap between items as needed */
+    margin-left: 10%;
+    width: 80%;
+    height:3700px;
+  }
+  
+  .service-item-left1 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;    
+  }
+
+  .service-item-left {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin-top: -15%;    
+  }
+  
+  .service-text {
+    margin-right: 50%;
+    margin-left: 50%; /* Space between image and text */
+    text-align: center;
+    height: 200px;
+    width:400px;
+  }
+  
+  .service-text p{
+    border: 2px solid white;
+    width: 650px;
+    height:200px;
+    margin-left: -50%;
+    margin-top: -20%;
+    text-align: justify;
+    padding: 10px;
+    
+    
+  }
+
+  .service-text p h3{
+    text-align: center;
+  }
+  /* Optional: Style images */
+  .service-item-left1 img {
+    margin-top: -20%;
+    size: 40%;
+    max-width: 40%; /* Ensure images don't exceed container width */
+    margin-left: 20%;
+    border-top: 10px solid rgb(255, 255, 255); /* Top border style (red color, 10px thickness) */
+    border-right: 10px solid rgb(255, 255, 255); /* Right border style (blue color, dotted, 5px thickness) */
+    border-bottom: 60px solid rgb(255, 255, 255); /* Bottom border style (green color, double line, 15px thickness) */
+    border-left: 10px solid rgb(255, 255, 255); 
+  }
+   .service-item-left img {
+    margin-top: -20%;
+    size: 40%;
+    max-width: 40%; /* Ensure images don't exceed container width */
+    margin-left: 20%;
+    border-top: 10px solid rgb(255, 255, 255); /* Top border style (red color, 10px thickness) */
+    border-right: 10px solid rgb(255, 255, 255); /* Right border style (blue color, dotted, 5px thickness) */
+    border-bottom: 60px solid rgb(255, 255, 255); /* Bottom border style (green color, double line, 15px thickness) */
+    border-left: 10px solid rgb(255, 255, 255); 
+  }
+  
+
+  .service-item-right {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin-top: -15%;
+   
+  }
+  
+  .service-item-right img {
+    margin-top: -20%;
+    size: 40%;
+    max-width: 40%; /* Ensure images don't exceed container width */
+    margin-left: -25%;
+    border-top: 10px solid rgb(255, 255, 255); /* Top border style (red color, 10px thickness) */
+    border-right: 10px solid rgb(255, 255, 255); /* Right border style (blue color, dotted, 5px thickness) */
+    border-bottom: 60px solid rgb(255, 255, 255); /* Bottom border style (green color, double line, 15px thickness) */
+    border-left: 10px solid rgb(255, 255, 255); 
+  }
+
+  .link{
+    text-decoration: none;
+    color: white;
+    margin-top: 60%;
+    margin-left: 45%;
+    margin-top: 90%;
+  }
+
+  .link:hover{
+    color: gold;
+  }
